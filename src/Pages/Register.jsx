@@ -60,7 +60,7 @@ const Form = () => {
     <div className="max-w-md mx-auto mt-10">
       <form
         onSubmit={handleOnSubmit}
-        className="bg-gray-200 p-6 rounded-lg shadow-md w-[450px]"
+        className="bg-gray-200 p-6 rounded-lg shadow-md sm:w-full "
       >
         <h2 className="text-2xl font-bold mb-5 text-center">Sign Up</h2>
 
